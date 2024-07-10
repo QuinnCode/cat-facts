@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  width: 90%;
+  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background: #ff6f61;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0
